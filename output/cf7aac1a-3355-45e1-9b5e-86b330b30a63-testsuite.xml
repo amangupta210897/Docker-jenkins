@@ -1,0 +1,151 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620646954608' stop='1620646983196'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1620646956823' status='passed' stop='1620646968802'>
+            <name>Test1 - Login to staging</name>
+            <title>Test1 - Login to staging</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1620646956839' status='passed' stop='1620646965846'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620646965846' status='passed' stop='1620646966470'>
+                    <name>I fill field "Username", "aman.gupta@yellowmessenger.com"</name>
+                    <title>I fill field "Username", "aman.gupta@yellowmessenger.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620646966471' status='passed' stop='1620646966800'>
+                    <name>I fill field "Password", "Qwerty@12345"</name>
+                    <title>I fill field "Password", "Qwerty@12345"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620646966800' status='passed' stop='1620646966966'>
+                    <name>I click "//*[@class='ant-btn submit___I-E-_ ant-btn-primary ant-btn-lg']"</name>
+                    <title>I click "//*[@class='ant-btn submit___I-E-_ ant-btn-primary ant-btn-lg']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620646966966' status='passed' stop='1620646968307'>
+                    <name>I click "//ul//li[text()[contains(.,'Sandbox')]]"</name>
+                    <title>I click "//ul//li[text()[contains(.,'Sandbox')]]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620646968307' status='passed' stop='1620646968445'>
+                    <name>I click "//*[@class='ant-input']"</name>
+                    <title>I click "//*[@class='ant-input']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620646968445' status='passed' stop='1620646968672'>
+                    <name>I fill field "Search projects", "shilpa"</name>
+                    <title>I fill field "Search projects", "shilpa"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620646968672' status='passed' stop='1620646968793'>
+                    <name>I press key "Enter"</name>
+                    <title>I press key "Enter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620646968793' status='passed' stop='1620646968798'>
+                    <name>I see "Sandbox"</name>
+                    <title>I see "Sandbox"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620646968798' status='passed' stop='1620646968802'>
+                    <name>I dont see "Login"</name>
+                    <title>I dont see "Login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1620646968806' status='passed' stop='1620646976118'>
+            <name>Test2 - Grap text demo</name>
+            <title>Test2 - Grap text demo</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1620646968811' status='passed' stop='1620646976107'>
+                    <name>I am on page "https://the-internet.herokuapp.com/checkboxes"</name>
+                    <title>I am on page "https://the-internet.herokuapp.com/checkboxes"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620646976107' status='passed' stop='1620646976118'>
+                    <name>I grab text from "#checkboxes"</name>
+                    <title>I grab text from "#checkboxes"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1620646976125' status='passed' stop='1620646977697'>
+            <name>Test3 - Dropdown Select Test</name>
+            <title>Test3 - Dropdown Select Test</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1620646976130' status='passed' stop='1620646976576'>
+                    <name>I am on page "https://the-internet.herokuapp.com/dropdown"</name>
+                    <title>I am on page "https://the-internet.herokuapp.com/dropdown"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620646976576' status='passed' stop='1620646976690'>
+                    <name>I select option "#dropdown", "Option 1"</name>
+                    <title>I select option "#dropdown", "Option 1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620646976691' status='passed' stop='1620646977697'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1620646977709' status='passed' stop='1620646983189'>
+            <name>Test4 - Smart Wait Test</name>
+            <title>Test4 - Smart Wait Test</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1620646977712' status='passed' stop='1620646978148'>
+                    <name>I am on page "https://the-internet.herokuapp.com/dynamic_loading/1"</name>
+                    <title>I am on page "https://the-internet.herokuapp.com/dynamic_loading/1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620646978148' status='passed' stop='1620646978283'>
+                    <name>I click "//button[contains(text(),'Start')]"</name>
+                    <title>I click "//button[contains(text(),'Start')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620646978283' status='passed' stop='1620646983189'>
+                    <name>I wait for text "Hello World!", 20</name>
+                    <title>I wait for text "Hello World!", 20</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620645456160' stop='1620645462270'>
+    <name>Todo list:</name>
+    <title>Todo list:</title>
+    <test-cases>
+        <test-case start='1620645456160' status='passed' stop='1620645459109'>
+            <name>Create todo item and validate</name>
+            <title>Create todo item and validate</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1620645456163' status='passed' stop='1620645458332'>
+                    <name>I am on page "https://todomvc.com/examples/react/#/"</name>
+                    <title>I am on page "https://todomvc.com/examples/react/#/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620645458332' status='passed' stop='1620645458336'>
+                    <name>I dont see element ".todo-count"</name>
+                    <title>I dont see element ".todo-count"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620645458336' status='passed' stop='1620645458892'>
+                    <name>I fill field "What needs to be done?", "Write a guide"</name>
+                    <title>I fill field "What needs to be done?", "Write a guide"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620645458893' status='passed' stop='1620645459098'>
+                    <name>I press key "Enter"</name>
+                    <title>I press key "Enter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620645459099' status='passed' stop='1620645459106'>
+                    <name>I see "Write a guide"</name>
+                    <title>I see "Write a guide"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620645459106' status='passed' stop='1620645459109'>
+                    <name>I see "1 item left"</name>
+                    <title>I see "1 item left"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1620645459114' status='passed' stop='1620645462177'>
+            <name>I try to open this site as anonymous user</name>
+            <title>I try to open this site as anonymous user</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1620645459116' status='passed' stop='1620645459617'>
+                    <name>I am on page "https://todomvc.com/examples/react/#/"</name>
+                    <title>I am on page "https://todomvc.com/examples/react/#/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620645459618' status='passed' stop='1620645459623'>
+                    <name>I dont see "Agree to cookies"</name>
+                    <title>I dont see "Agree to cookies"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620645459896' status='passed' stop='1620645462064'>
+                    <name>anonymous user: I am on page "https://todomvc.com/examples/react/#/"</name>
+                    <title>anonymous user: I am on page "https://todomvc.com/examples/react/#/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620645462064' status='passed' stop='1620645462070'>
+                    <name>anonymous user: I dont see "Agree to cookies"</name>
+                    <title>anonymous user: I dont see "Agree to cookies"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
